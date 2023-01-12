@@ -8,6 +8,12 @@ spring:
     username: root
     password: 123456789
     driver-class-name: com.mysql.jdbc.Driver
+  cloud:
+    nacos:
+      server-addr: localhost:8848
+#      discovery:
+#        cluster-name: xian
+       # namespace: 04f04b16-5c76-4e71-bce3-c2205914c827  #namespace的ID
 mybatis:
   type-aliases-package: cn.itcast.user.pojo
   configuration:
@@ -19,7 +25,18 @@ logging:
     dateformat: MM-dd HH:mm:ss:SSS
 
 # 连接注册中心注册服务
-eureka:
-  client:
-    service-url:
-      defaultZone: http://127.0.0.1:10086/eureka/
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://127.0.0.1:10086/eureka/
+
+#userservice:
+#  ribbon:
+#    NFLoadBalancerRuleClassName: com.alibaba.cloud.nacos.ribbon.NacosRule # 负载均衡规则--集群优先
+
+
+# 饥饿加载
+ribbon:
+  eager-load:
+    enabled: true
+    clients: userservice

@@ -10,7 +10,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
   cloud:
     nacos:
-      server-addr: localhost:8848
+      server-addr: localhost:80
 #      discovery:
 #        cluster-name: xian
        # namespace: 04f04b16-5c76-4e71-bce3-c2205914c827  #namespace的ID

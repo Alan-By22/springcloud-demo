@@ -1,6 +1,6 @@
-package cn.itcast.order.client;
+package com.ithuipu.client;
 
-import cn.itcast.order.pojo.User;
+import com.ithuipu.pojo.User;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

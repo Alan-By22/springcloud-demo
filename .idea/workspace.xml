@@ -4,27 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47f29468-fd87-4bb4-8f58-e343ffefbf68" name="Default Changelist" comment="feign的使用">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_httpclient_10_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign-api/feign-api.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign-api/src/main/java/com/ithuipu/config/DefaultFeignConfiguration.java" afterDir="false" />
+    <list default="true" id="47f29468-fd87-4bb4-8f58-e343ffefbf68" name="Default Changelist" comment="feign的使用,和最佳实践">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_59_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_59_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http2_4_1_59_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_59_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_59_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_59_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_59_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_59_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_59_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_59_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_59_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_59_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_0_9_17_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_reactor_netty_2_3_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_webflux_2_3_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_gateway_server_2_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_gateway_2_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webflux_5_2_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_synchronoss_cloud_nio_multipart_parser_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_synchronoss_cloud_nio_stream_storage_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/gateway.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/ithuipu/GatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/order-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/order-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/cn/itcast/order/OrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/cn/itcast/order/OrderApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/cn/itcast/order/client/UserClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/feign-api/src/main/java/com/ithuipu/client/UserClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/cn/itcast/order/pojo/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/cn/itcast/order/pojo/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/cn/itcast/order/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/feign-api/src/main/java/com/ithuipu/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/cn/itcast/order/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/cn/itcast/order/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/target/classes/com/ithuipu/EurekaApplication.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/order-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/target/classes/cn/itcast/order/OrderApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/target/classes/cn/itcast/order/OrderApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/target/classes/cn/itcast/order/service/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/target/classes/cn/itcast/order/service/OrderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/target/classes/cn/itcast/order/pojo/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/target/classes/cn/itcast/order/pojo/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/target/classes/cn/itcast/order/pojo/User.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/bootstrap.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +94,9 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\IdeaProjects\cloud\cloud-demo\eureka-server\src\main\resources" />
@@ -93,7 +112,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaApplication">
+  <component name="RunManager" selected="Spring Boot.GatewayApplication">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -114,6 +133,19 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ithuipu.EurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ithuipu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ithuipu.GatewayApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -153,6 +185,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.GatewayApplication" />
         <item itemvalue="Spring Boot.EurekaApplication" />
       </list>
     </recent_temporary>
@@ -167,7 +200,10 @@
       <updated>1673507260950</updated>
       <workItem from="1673507261998" duration="13593000" />
       <workItem from="1673852451638" duration="13000" />
-      <workItem from="1674449579043" duration="10446000" />
+      <workItem from="1674449579043" duration="10492000" />
+      <workItem from="1674633422754" duration="1813000" />
+      <workItem from="1675050863624" duration="1225000" />
+      <workItem from="1675060111811" duration="6432000" />
     </task>
     <task id="LOCAL-00001" summary="nacos的注册与分级模块,权重,热部署">
       <created>1673525448571</created>
@@ -183,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674465443645</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feign的使用,和最佳实践">
+      <created>1674472737001</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674472737001</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,11 +242,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="nacos的注册与分级模块,权重,热部署" />
     <MESSAGE value="feign的使用" />
-    <option name="LAST_COMMIT_MESSAGE" value="feign的使用" />
+    <MESSAGE value="feign的使用,和最佳实践" />
+    <option name="LAST_COMMIT_MESSAGE" value="feign的使用,和最佳实践" />
   </component>
 </project>

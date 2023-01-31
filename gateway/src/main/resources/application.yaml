@@ -13,7 +13,13 @@ spring:
           uri: lb://userservice #路由的地址 lb:负载均衡,跟上服务的名称
           predicates: #路由的断言,判断请求是否符合路由的规则(条件)
             - Path=/user/** #按照路径进行匹配
+          #请求头过滤器
+#          filters:
+#            - AddRequestHeader=Truth,Hello cloud!
         - id: order-service
           uri: lb://orderservice
           predicates:
             - Path=/order/**
+      #全局过滤器
+      default-filters:
+        - AddRequestHeader=Truth,Hello cloud!
